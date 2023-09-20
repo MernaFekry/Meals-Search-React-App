@@ -1,0 +1,39 @@
+
+.content{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.content:hover .transparentLayer{
+    transform: translateY(0%);
+}
+
+.transparentLayer{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    transform: translateY(100%);
+    transition: 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: #fff 1px solid !important;
+}
+
+
+.transparentLayer a{
+    border: #fff 1px solid !important;
+    color: #fff;
+}
+
+.transparentLayer a:hover{
+    background-color: black  !important;
+    color: #fff;
+}
