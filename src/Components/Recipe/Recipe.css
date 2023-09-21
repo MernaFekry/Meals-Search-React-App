@@ -37,3 +37,7 @@
     background-color: black  !important;
     color: #fff;
 }
+
+.transparentLayer h6{
+    font-weight: bolder !important;
+}
